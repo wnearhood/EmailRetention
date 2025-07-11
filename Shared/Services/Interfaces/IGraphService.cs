@@ -1,4 +1,5 @@
 using Microsoft.Graph;
+using Microsoft.Graph.Models;
 using EmailRetention.Shared.Models.Configuration;
 
 namespace EmailRetention.Shared.Services.Interfaces;

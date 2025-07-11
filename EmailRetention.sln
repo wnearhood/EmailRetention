@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailRetention.Shared", "Shared\EmailRetention.Shared.csproj", "{8FD8EBA9-2B83-494F-AAB4-119E570F4558}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailRetention.Setup", "Setup\EmailRetention.Setup.csproj", "{B2A1C4E6-3F7D-4A8E-9B5C-2D6E1F8A9C7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{8FD8EBA9-2B83-494F-AAB4-119E570F4558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FD8EBA9-2B83-494F-AAB4-119E570F4558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FD8EBA9-2B83-494F-AAB4-119E570F4558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A1C4E6-3F7D-4A8E-9B5C-2D6E1F8A9C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A1C4E6-3F7D-4A8E-9B5C-2D6E1F8A9C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A1C4E6-3F7D-4A8E-9B5C-2D6E1F8A9C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A1C4E6-3F7D-4A8E-9B5C-2D6E1F8A9C7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

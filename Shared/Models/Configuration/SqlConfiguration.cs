@@ -1,5 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace EmailRetention.Shared.Models.Configuration;
 
 /// <summary>
@@ -10,13 +8,11 @@ public class SqlConfiguration
     /// <summary>
     /// SQL Server connection string
     /// </summary>
-    [Required]
     public string ConnectionString { get; set; } = string.Empty;
 
     /// <summary>
     /// Database name for email retention data
     /// </summary>
-    [Required]
     public string DatabaseName { get; set; } = "EmailRetention";
 
     /// <summary>

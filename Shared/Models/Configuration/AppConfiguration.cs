@@ -1,5 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace EmailRetention.Shared.Models.Configuration;
 
 /// <summary>
@@ -10,31 +8,26 @@ public class AppConfiguration
     /// <summary>
     /// Azure AD Application ID for Graph API authentication
     /// </summary>
-    [Required]
     public string AppId { get; set; } = string.Empty;
 
     /// <summary>
     /// Client secret for application authentication
     /// </summary>
-    [Required]
     public string ClientSecret { get; set; } = string.Empty;
 
     /// <summary>
     /// Azure AD Tenant ID
     /// </summary>
-    [Required]
     public string TenantId { get; set; } = string.Empty;
 
     /// <summary>
     /// Deployment type: Local or Azure
     /// </summary>
-    [Required]
     public DeploymentType DeploymentType { get; set; }
 
     /// <summary>
     /// SQL Server configuration settings
     /// </summary>
-    [Required]
     public SqlConfiguration SqlConfiguration { get; set; } = new();
 
     /// <summary>
